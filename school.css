@@ -1,0 +1,312 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #373c56;
+}
+#navigation{
+	display: flex;
+}
+#img-1{
+	width: 80px;
+	height: 100px;
+	padding-top: 8px;
+	padding-left: 15px;
+	color: #a3d1bb;
+}
+#div{
+	color: black;
+	display: flex;
+}
+#h-1{
+	padding-left: 30px;
+	font-size: 37px;
+	font-family: 'Baloo Bhai 2', cursive;
+	color: white;
+}
+#paints ul{
+	display: flex;
+	flex-direction: column;
+}
+#paints ul li a{
+	list-style: none;
+	font-size: 30px;
+	font-family: 'Baloo Bhai 2', cursive;
+}
+.aschool{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#about{
+	justify-content: center;
+	text-align: center;
+}
+#img-2{
+	background-color: white;
+	width: 500px;
+	height: 300px;
+}
+#sss{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+#about ol li{
+	list-style: none;
+}
+#p-1{
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+h1{
+	font-family: 'Baloo Bhai 2', cursive;
+	color: white;
+}
+h2{
+	font-family: 'Baloo Bhai 2', cursive;
+	color: white;
+}
+h3{
+	font-family: 'Baloo Bhai 2', cursive;
+	color: white;
+}
+p{
+	color: white;
+}
+#facilities h3{
+	color: black;
+}
+.p-2{
+	font-family: 'Luxurious Roman', cursive;
+}
+.p-3{
+	font-family: 'Luxurious Roman', cursive;
+}
+#about ol li{
+	font-family: 'Luxurious Roman', cursive;
+}
+#facilities{
+	justify-content: center;
+	text-align: center;
+}
+.img-3{
+	background-color: white;
+	width: 500px;
+	height: 300px;
+}
+.asian{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+#our-1{
+	margin-top: 20px;
+}
+#our-2{
+	margin-top: 20px;
+}
+.a-1{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	background-color: #daf1e6;
+	color: black;
+}
+#Contact{
+	justify-content: center;
+	text-align: center;
+}
+#kk{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.material-icons{
+	padding-right: 5px;
+}
+footer{
+	background-color: #a3d1bb;
+	color: black;
+	justify-content: center;
+	text-align: center;
+}
+footer div{
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: #fff;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#menu{
+	display: none;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav li a:hover{
+	border: 1px solid #fff;
+	padding: 10px 10px; 
+}
+
+.nav li{
+	list-style: none;
+	padding: 16px 0; 
+	display: block;
+}
+#paints ul{
+	display: flex;
+	flex-direction: row;
+	margin-left: 150px;
+}
+#h{
+	padding: 10px 10px;
+}
+#h2{
+	padding: 10px 10px; 
+	margin-left: 50px;
+}
+#h3{
+	padding: 10px 10px;
+	margin-left: 50px;
+}
+.material-icons{
+	color: white;
+}
+html{
+	scroll-behavior: smooth;
+}
+#drop{
+	left: 0;
+	width: 35px;
+    height: 30px;
+	cursor: pointer;
+	z-index: 100;
+	position: absolute;
+	margin-top: 40vh;
+	display: none;
+}
+.rod{
+	height: 5px;
+	width: 100%;
+	border-radius: 10px;
+	background-color: #fff;
+}
+#rod1{
+	transform: translateY(9px) rotate(-45deg);
+}
+#rod2{
+	opacity: 0;
+}
+#rod3{
+	transform: rotate(45deg);
+}
+
+
+@media only screen and (max-width: 1136px){
+	.nav li{
+		display: none;
+	}
+	#drop{
+		display: block;
+	}
+	.nav{
+		top: 0;
+		right: 0;
+		position: absolute;
+        padding left: 30;
+        margin: 0 20px;
+        transition: 1s ease;
+	}
+	#menu{
+	    top: 0;
+	    right: 0;
+	    padding-right: 25px;
+	    margin: 30px 0 20px 20px;
+	    width: 35px;
+    	height: 30px;
+	    cursor: pointer;
+	    z-index: 100;
+	    position: absolute;
+    }
+	.change{
+        background-color: #f55c47;
+        margin: 0;
+        height: 50vh;
+        position: absolute;
+        font-size: 30px;
+        top: 0;
+        z-index: 100;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #paints ul{
+    	flex-direction: column;
+    }
+    .change li{
+	    display: block;
+    }
+    .change li a:hover{
+	    border: 1px solid #fff;
+	    padding: 10px 10px; 
+    } 
+    .icon .bar{
+	    background-color:#fff; 
+    }
+	#menu{
+		display: block;
+	}
+	
+}
+@media only screen and (max-width: 1050px)
+{
+    #our{
+    	display: flex;
+    	flex-direction: column;
+    }
+    #our-1{
+    	display: flex;
+    	flex-direction: column;
+    }
+    #our-2{
+    	display: flex;
+    	flex-direction: column;
+    }
+    .a-1{
+        background-color: #373c56;
+        color: white;
+    }
+    #facilities h3{
+    	color: white;
+    }
+    #kk{
+    	display: flex;
+    	flex-direction: column;
+    }
+}
+@media only screen and (max-width: 499px){
+	#img-2{
+		width: 250px;
+		height: 200px;
+	}
+	.img-3{
+		width: 250px;
+		height: 200px;
+	}
+	#h-1{
+		padding-top: 15px;
+	}
+}
